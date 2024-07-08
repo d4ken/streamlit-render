@@ -1,0 +1,14 @@
+credentials:
+  usernames:
+    devuser:
+      email: develop@techqiao.co.jp
+      failed_login_attempts: 0 # Will be managed automatically
+      name: devuser
+      password: $2b$12$NhoC7tgINVA1vFo8JQbRPeBROmoTAluseN0b3Sm1KUMY9EEP7qNn. # Will be hashed automatically
+cookie:
+  expiry_days: 30
+  key: some_signature_key # Must be string
+  name: some_cookie_name
+pre-authorized:
+  emails:
+  - develop@techqiao.co.jp
